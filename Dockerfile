@@ -1,4 +1,4 @@
-FROM nodered/node-red:latest
+FROM nodered/node-red:latest-minimal
 
 USER  root
 RUN   apk add --no-cache python3
