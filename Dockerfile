@@ -1,4 +1,4 @@
-FROM nodered/node-red:minimal-latest
+FROM nodered/node-red:latest-minimal
 
 RUN   npm install nodered-contrib-signal-client --save
 
