@@ -1,6 +1,6 @@
 FROM nodered/node-red:latest
 
-RUN   dnf install python3
+RUN   apk add python3
 RUN   npm install --save core-js@^3
 RUN   npm install nodered-contrib-signal-client --save
 
